@@ -1,0 +1,4 @@
+<p>cart works!</p>
+<app-items>Items works</app-items>
+<button (click)="getInStock()">Get Items</button>
+<div *ngFor="let item of stock">{{ item?.prefix }}</div>
