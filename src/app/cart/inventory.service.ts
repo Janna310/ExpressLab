@@ -23,7 +23,7 @@ export class InventoryService {
 
   //return all data with specified params
   getItems() {
-    return this.http.get('/api/items?maxPrice=10?prefix="shirt"?pageSize=5', {
+    return this.http.get('/api/items', {
       responseType: 'json',
     });
   }
